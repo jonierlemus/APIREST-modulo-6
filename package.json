@@ -1,0 +1,29 @@
+{
+  "name": "apirest",
+  "version": "1.0.0",
+  "description": "MI PRIMERA APIREST",
+  "homepage": "https://github.com/jonierlemus/GA6-220501123-AA2-EV01#readme",
+  "bugs": {
+    "url": "https://github.com/jonierlemus/GA6-220501123-AA2-EV01/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonierlemus/GA6-220501123-AA2-EV01.git"
+  },
+  "license": "ISC",
+  "author": "LEMUS BERNAL",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
